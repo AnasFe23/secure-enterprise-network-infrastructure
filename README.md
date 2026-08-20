@@ -58,3 +58,11 @@ Implemented centralized identity governance and network access control for the w
 - WPA2/WPA3-Enterprise Deployment: Replaced vulnerable pre-shared keys (PSK) with dynamic EAP-PEAP (MSCHAPv2) authentication, creating per-user credentials and granular session auditing.
 - Switch & Router Fallback: Enforced aaa new-model authentication with fallback administrative users to prevent device lockouts during server outages
 - Audit Logging: Monitored and validated radius.log telemetry to verify Access-Request, Access-Accept, and unauthorized Access-Reject events in real time[cite: 3].
+
+## 🛠️ Deployed Technologies & Services\
+
+- Network & Perimeter: Cisco IOS (Routers, L3 Switches), VLAN Trunking, VLSM, NAT/PAT, Extended ACLs, ASUS AP (Wi-Fi 6 / 802.11ax, PMF)[cite: 3].
+- Identity & Directory: Windows Server 2016/2022 Active Directory Domain Services (Group2.com), Kerberos KDC, Samba Winbind SSO[cite: 3].
+- Core Network Services: Windows DNS (Forward/Reverse Lookup Zones), Windows DHCP (Multi-VLAN Scopes & Relay), Syslog Watcher[cite: 3].
+- Security Information & Event Management (SIEM): Wazuh Manager & Indexer, Graylog 5.2, OpenSearch, MongoDB[cite: 3].
+- Intrusion Detection & Defense: Suricata IDS (JSON output to Filebeat/Kibana), ModSecurity v3 WAF + OWASP Core Rule Set (CRS), Nginx Reverse Proxy, Fail2ban, UFW, AppArmor[cite: 3].
