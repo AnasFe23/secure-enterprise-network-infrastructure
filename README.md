@@ -59,7 +59,7 @@ Implemented centralized identity governance and network access control for the w
 - Switch & Router Fallback: Enforced aaa new-model authentication with fallback administrative users to prevent device lockouts during server outages
 - Audit Logging: Monitored and validated radius.log telemetry to verify Access-Request, Access-Accept, and unauthorized Access-Reject events in real time[cite: 3].
 
-## 🛠️ Deployed Technologies & Services\
+## 🛠️ Deployed Technologies & Services
 
 - Network & Perimeter: Cisco IOS (Routers, L3 Switches), VLAN Trunking, VLSM, NAT/PAT, Extended ACLs, ASUS AP (Wi-Fi 6 / 802.11ax, PMF)[cite: 3].
 - Identity & Directory: Windows Server 2016/2022 Active Directory Domain Services (Group2.com), Kerberos KDC, Samba Winbind SSO[cite: 3].
