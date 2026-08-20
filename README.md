@@ -52,6 +52,7 @@ The engagement simulated a multi-team operational model:
 ## 🔑 Key Engineering Contribution: Enterprise 802.1X RADIUS Authentication
 
 (Lead Author / Assigned Role: Anas Faozi Abdullah Al-Abi)
+
 Implemented centralized identity governance and network access control for the wireless perimeter (VLAN 70) using FreeRADIUS 3.0
 - Cross-VLAN AAA Integration: Configured FreeRADIUS on the Blue Team Linux Server (172.16.60.162) to authenticate wireless clients associating with the ASUS Wireless AP (10.1.1.12) over UDP port 1812.
 - WPA2/WPA3-Enterprise Deployment: Replaced vulnerable pre-shared keys (PSK) with dynamic EAP-PEAP (MSCHAPv2) authentication, creating per-user credentials and granular session auditing.
